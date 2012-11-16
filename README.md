@@ -6,3 +6,5 @@ Tetris_Pason
 3. run this command "./client.app -t \<teamname\> -p \<password\> -m \<match_token\> -n \<host_name\>"
       
       **See PASON specifications for match_token and host_name
+
+C Sample Client grabbed from https://github.com/thomashw/tetris_stubs
