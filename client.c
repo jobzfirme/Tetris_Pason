@@ -3,6 +3,7 @@
 #include "command.h"
 #include "communication.h"
 #include "type.h"
+#include "algorithm.h"
 
 const char client_usage_string[] =
 	"client <command> [<args>]\n"
@@ -73,7 +74,8 @@ int main(int argc, char **argv)
 
 	///
 	/// ADD ALGORITHM
-	printf("Missing algorithm...\n");
+	printf("Trying algorithm: Drop all peices all the time...\n");
+	Algorithm(game_info);
 	///
 
 	printf("Exiting...\n");
